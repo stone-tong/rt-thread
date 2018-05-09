@@ -18,7 +18,8 @@ before_script:
   - export RTT_ROOT=`pwd`
   - export ENV_ROOT=~/.env
   - "[ x$RTT_CC == x ] && export RTT_CC='gcc' || true"
-  - git clone https://github.com/RT-Thread/env.git ~/.env
+  - git clone https://github.com/RT-Thread/packages.git ~/.env/packages/packages
+  - git clone https://github.com/RT-Thread/env.git ~/.env/tools/scripts
 
 script:
   - ~/.env/pkgs --update
