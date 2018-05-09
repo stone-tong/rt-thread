@@ -22,7 +22,7 @@ before_script:
   - git clone https://github.com/RT-Thread/env.git ~/.env/tools/scripts
 
 script:
-  - ~/.env/pkgs --update
+  - ~/.env/tools/scripts/pkgs --update
   - scons -C bsp/$RTT_BSP
 
 env:
