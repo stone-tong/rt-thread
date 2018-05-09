@@ -19,11 +19,11 @@ before_script:
   - export ENV_ROOT=~/.env
   - "[ x$RTT_CC == x ] && export RTT_CC='gcc' || true"
   - git clone https://github.com/RT-Thread/env.git ~/.env
-  - export PATH=~/.env/tools/scripts:$PATH
 
 script:
-  - pkgs --update
+  - ~/.env/pkgs --update
   - scons -C bsp/$RTT_BSP
 
 env:
   - RTT_BSP='qemu-vexpress-a9' RTT_TOOL_CHAIN='sourcery-arm'
+  - RTT_BSP='imxrt1052-evk' RTT_TOOL_CHAIN='sourcery-arm'
