@@ -2,7 +2,6 @@
 
 [中文页](README_zh.md) |
 
-[![GitHub issues](https://img.shields.io/github/issues/RT-Thread/rt-thread.svg)](https://github.com/RT-Thread/rt-thread/issues)
 [![GitHub release](https://img.shields.io/github/release/RT-Thread/rt-thread.svg)](https://github.com/RT-Thread/rt-thread/releases)
 [![Build Status](https://travis-ci.org/RT-Thread/rt-thread.svg)](https://travis-ci.org/RT-Thread/rt-thread)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/RT-Thread/rt-thread?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
