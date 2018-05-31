@@ -13,7 +13,7 @@ LPCXpresso54608是NXP推出的一款基于LPC54608系列的评估板，板载资
 | 片外SDRAM | 8M           |
 | 片内FLASH | 512K         |
 
-![LPC54608](https://www.nxp.com/assets/images/en/dev-board-image/LPCXpresso54608_back.png)
+![LPC54608](http://www.nxp.com/assets/images/en/dev-board-image/LPCXpresso54608_back.png)
 
 ## 编译说明
 
